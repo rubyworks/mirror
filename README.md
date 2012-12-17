@@ -1,8 +1,8 @@
+[![Build Status|align=right|float](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/real)
+
 [Homepage](http://rubyworks.github.com/real) |
 [Support](http://github.com/rubyworks/real/issues) |
 [Source Code](http://github.com/rubyworks/real)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Build Status](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/real)
 
 
 # Real
