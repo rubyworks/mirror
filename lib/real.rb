@@ -56,6 +56,23 @@ private
     im.bind(o).call(*a, &b)    
   end
 
+  #
+  # Access to project metadata, e.g. VERSION.
+  #
+  def self.const_missing(const_name)
+    name = const_name.to_s.downcase
+    index[name] || super(const_name)
+  end
+
+  #
+  # Load project metadata file.
+  #
+  def self.index
+    @index ||= (
+      require 'yaml'
+      YAML.load_file(File.join(File.dirname(__FILE__), 'real.yml'))
+    )
+  end
 end
 
 $real = Real
