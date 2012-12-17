@@ -1,10 +1,11 @@
-<div style="float: right;">
-  <a href="http://travis-ci.org/rubyworks/real"><img title="Build Status" src="https://secure.travis-ci.org/rubyworks/bang.png" /></a>
-</div>
+<span align="right">
+<a href="http://travis-ci.org/rubyworks/real"><img title="Build Status" src="https://secure.travis-ci.org/rubyworks/bang.png" /></a>
+</span>
 
 [Homepage](http://rubyworks.github.com/real) |
 [Support](http://github.com/rubyworks/real/issues) |
 [Source Code](http://github.com/rubyworks/real)
+
 
 
 # Real
