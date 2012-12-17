@@ -5,19 +5,19 @@ module Real
   # Object Reflection #
   #####################
 
-  def id(obj)
+  def id(*a, &b)
     bind_call(Object, :object_id, *a, &b)
   end
 
-  def class(obj)
+  def class(*a, &b)
     bind_call(Object, :class, *a, &b)
   end
 
-  def methods(obj)
+  def methods(*a, &b)
     bind_call(Object, :methods, *a, &b)
   end
 
-  def public_methods(obj, *a, &b)
+  def public_methods(*a, &b)
     bind_call(Object, :public_methods, *a, &b)
   end
 
