@@ -1,7 +1,7 @@
 [Homepage](http://rubyworks.github.com/real) |
 [Support](http://github.com/rubyworks/real/issues) |
-[Source Code](http://github.com/rubyworks/real)
-<center>[![Build Status](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/real)</center>
+[Source Code](http://github.com/rubyworks/real) &nbsp; &nbsp;
+[![Build Status](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/real)
 
 
 # Real
