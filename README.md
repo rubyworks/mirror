@@ -1,6 +1,6 @@
 [Homepage](http://rubyworks.github.com/real) |
-[Source Code](http://github.com/rubyworks/real) |
 [Support](http://github.com/rubyworks/real/issues) |
+[Source Code](http://github.com/rubyworks/real) ::
 [![Build Status](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/real)
 
 
