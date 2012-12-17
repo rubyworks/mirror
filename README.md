@@ -1,4 +1,4 @@
-<div align="right">
+<div style="float: right;">
   <a href="http://travis-ci.org/rubyworks/real"><img title="Build Status" src="https://secure.travis-ci.org/rubyworks/bang.png" /></a>
 </div>
 
