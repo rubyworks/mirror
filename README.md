@@ -1,7 +1,10 @@
+<div align="right">
+[![Build Status](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/real)
+</div>
+
 [Homepage](http://rubyworks.github.com/real) |
 [Support](http://github.com/rubyworks/real/issues) |
-[Source Code](http://github.com/rubyworks/real) &nbsp; &nbsp;
-[![Build Status](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/real)
+[Source Code](http://github.com/rubyworks/real)
 
 
 # Real
