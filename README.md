@@ -1,5 +1,5 @@
 <div align="right">
-[![Build Status](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/real)
+  <a href="http://travis-ci.org/rubyworks/real"><img title="Build Status" src="https://secure.travis-ci.org/rubyworks/bang.png" /></a>
 </div>
 
 [Homepage](http://rubyworks.github.com/real) |
