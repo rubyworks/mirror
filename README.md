@@ -26,7 +26,6 @@ I've advocated for explict meta-programming methods be added to Ruby
 for a long time. So far to no avail. Finally, I've decided I could 
 at least provide my own library that provides the functionality.
 
-
     require 'real'
 
     $real.class(string)  #=> String
