@@ -1,10 +1,10 @@
-# Real
+# Mirror
 
 ## Overview
 
-There is a problem in the realm of Ruby metaprogramming --objects
-can be liers. You see, there is no guaruntee that the return value of 
-a method is the "truth". Any object can play dirty tricks.
+There is a problem in the realm of Ruby metaprogramming: *objects can be liers*.
+You see, there is no guaruntee that the return value of a method is the "truth".
+Any object can play dirty tricks.
 
     string = "Watch this..."
 
@@ -14,18 +14,19 @@ a method is the "truth". Any object can play dirty tricks.
 
     string.class  #=> nil
 
-We are never going to know what the *real* class of that object is
-by asking it. So what can we do?
+We are never going to know what the *real* class of that object is by asking it.
+So what can we do?
 
-I've advocated for explict meta-programming methods be added to Ruby
-for a long time. So far to no avail. Finally, I've decided I could 
-at least provide my own library that provides the functionality.
+Ultimately the best solution is for Ruby itself to support explicit 
+meta-programming methods. But since this is notforthcoming, there is
+luckily a trick we can use to provide endow a library with the ability.
+The trick to get an UnboundMethod from Object (or Module as the case
+may be), bind it to the object in question and then call it. In this way
+we route around any possible overrides (beyond Object itself, of course).
 
-    require 'real'
+    method = String.instance_method(:class)
+    method.bind(string).call  #=> String
 
-    $real.class(string)  #=> String
-
-The use of global is just a reference to the `Real` module.
-
-    Real.class(string)  #=> String
+So the Mirror library uses this trick throughout to provided *real*
+reflection on objects.
 

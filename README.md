@@ -1,15 +1,16 @@
-[![Build Status|align=right|float](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/real)
+[![Build Status|align=right|float](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/mirror)
 
-[Homepage](http://rubyworks.github.com/real) |
-[Support](http://github.com/rubyworks/real/issues) |
-[Source Code](http://github.com/rubyworks/real)
+[Homepage](http://rubyworks.github.com/mirror) /
+[Documentation](http://rubydoc.info/gems/mirror) /
+[Support](http://github.com/rubyworks/mirror/issues) /
+[Source Code](http://github.com/rubyworks/mirror)
 
 
-# Real
+# Mirror
 
-There is a problem in the realm of Ruby metaprogramming --objects
-can be liers. You see, there is no guaruntee that the return value of 
-a method is the "truth". Any object can play dirty tricks.
+There is a problem in the realm of Ruby metaprogramming" *objects can be liars*.
+You see, there is no guaruntee that the return value of a method is the "truth".
+Any object can play dirty tricks.
 
     string = "Watch this..."
 
@@ -19,23 +20,23 @@ a method is the "truth". Any object can play dirty tricks.
 
     string.class  #=> nil
 
-We are never going to know what the *real* class of that object is
+We are never going to know what the *mirror* class of that object is
 by asking it. So what can we do?
 
 I've advocated for explict meta-programming methods be added to Ruby
 for a long time. So far to no avail. Finally, I've decided I could 
 at least provide my own library that provides the functionality.
 
-    require 'real'
+    require 'mirror'
 
-    $real.class(string)  #=> String
+    Mirror[string].class  #=> String
 
 
 ### Installation
 
 Putting the old RubyGems to work:
 
-    $ gem install real
+    $ gem install mirror
 
 
 ### Copyrights

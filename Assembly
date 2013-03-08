@@ -1,6 +1,6 @@
 ---
 gem:
-  gemspec: .gemspec
+  gemspec: pkg/pic.gemspec
   active: true
 
 github:
@@ -20,7 +20,7 @@ qed:
   files: demo
 
 qedoc:
-  title: Real Ruby Reflection
+  title: Edited Pictures for Ruby
   files: demo
   output: DEMO.md
 
