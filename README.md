@@ -1,12 +1,14 @@
-[![Build Status|align=right|float](https://secure.travis-ci.org/rubyworks/bang.png)](http://travis-ci.org/rubyworks/mirror)
+# Mirror
+
+[![Gem Version](https://badge.fury.io/rb/mirror.png)](http://badge.fury.io/rb/mirror)
+[![Build Status](https://secure.travis-ci.org/rubyworks/mirror.png)](http://travis-ci.org/rubyworks/mirror) &nbsp; &nbsp;
+[![Flattr Me](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/324911/Rubyworks-Ruby-Development-Fund)
 
 [Homepage](http://rubyworks.github.com/mirror) /
 [Documentation](http://rubydoc.info/gems/mirror) /
 [Support](http://github.com/rubyworks/mirror/issues) /
 [Source Code](http://github.com/rubyworks/mirror)
 
-
-# Mirror
 
 There is a problem in the realm of Ruby metaprogramming" *objects can be liars*.
 You see, there is no guaruntee that the return value of a method is the "truth".
